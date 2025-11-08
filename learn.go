@@ -19,5 +19,15 @@ func main() {
 		z01.PrintRune(' ')
 		
 	}
+ z01.PrintRune('\n')
+ for k := '0'; k <= '9'; k++ {
+	for l := '0'; l <= '7'; l++ {
+		z01.PrintRune(k)
+		z01.PrintRune(l)
+		z01.PrintRune(' ')
+		
+	}
+	z01.PrintRune('\n')
+ }
 
 }
