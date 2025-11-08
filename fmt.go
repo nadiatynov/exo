@@ -17,4 +17,8 @@ y:=3*/
   z = true 
  fmt.Printf("j'ai : %vans, et %v, Oui c'est %v!",x,y,z)
 
+ fmt.Println('\n')
+ 
+ fmt.Println(x , y , z)
+
 }
