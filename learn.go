@@ -1,7 +1,8 @@
 package main 
 
-import "github.com/01-edu/z01"
-	
+import 
+	"github.com/01-edu/z01"
+
 func main() {
 	for i := 'a'; i <= 'z'; i++ { 
   z01.PrintRune(i)
@@ -29,5 +30,7 @@ func main() {
 	}
 	z01.PrintRune('\n')
  }
+ z01.PrintRune('\n')
+
 
 }
