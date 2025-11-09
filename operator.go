@@ -35,7 +35,7 @@ func main() {
 	fmt.Println( h, "impaire !") 
 	}
 	*/
-	age := 16
+	age := 3
 	if age > 18 {
 		fmt.Println("je suis majeur")
      }else if age == 18{ 
