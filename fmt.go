@@ -1,6 +1,10 @@
 package main 
 
-import "fmt" 
+import (
+"fmt" 
+"math/rand"	
+"time"
+)
 
 func main() { 
 /*var x int 
@@ -38,11 +42,10 @@ y:=3*/
   list[3] = 19
 fmt.Println(list) 
 
-s := [] int{1,2,9}
-for i, h := range s{
-	if i < 2{
-		fmt.Println(h) 
-	} 
+rand.Seed(time.Now().UnixNano())
+var s  [6]int 
+for i, h := range s{ 
+ s[i]= rand.Int()
+	fmt.Println(h) 
 }
-
 }
